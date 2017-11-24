@@ -1,0 +1,92 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+ios/for-pets.xcodeproj/xcshareddata/xcschemes/for-pets-tvOS.xcscheme
+ios/for-pets.xcodeproj/project.pbxproj
+ios/for-pets-tvOSTests/Info.plist
+android/app/src/main/res/values/strings.xml
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+android/app/src/main/AndroidManifest.xml
+android/app/proguard-rules.pro
+android/app/build.gradle
+android/app/BUCK
+.gitattributes
+.expo/settings.json
+.expo/packager-info.json
+package-lock.json
+ios/for-petsTests/for-petsTests.m
+ios/for-petsTests/Info.plist
+ios/for-pets-tvOS/Info.plist
+android/settings.gradle
+android/keystores/debug.keystore.properties
+android/keystores/BUCK
+android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+android/app/src/main/java/com/for-pets/MainApplication.java
+android/app/src/main/java/com/for-pets/MainActivity.java
+ios/for-pets/main.m
+ios/for-pets/Info.plist
+ios/for-pets/Images.xcassets/AppIcon.appiconset/Contents.json
+ios/for-pets/Base.lproj/LaunchScreen.xib
+ios/for-pets/AppDelegate.m
+ios/for-pets/AppDelegate.h
+ios/for-pets.xcodeproj/xcshareddata/xcschemes/for-pets.xcscheme
+android/gradlew.bat
+android/gradlew
+android/gradle/wrapper/gradle-wrapper.properties
+android/gradle/wrapper/gradle-wrapper.jar
+android/gradle.properties
+android/build.gradle
+android/app/src/main/res/values/styles.xml
+.buckconfig
