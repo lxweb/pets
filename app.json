@@ -1,0 +1,13 @@
+{
+  "name": "pets",
+  "displayName": "pets",
+
+  "expo": {
+    "sdkVersion": "20.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": { "package": "com.pets" },
+    "privacy": "public",
+
+  }
+}
